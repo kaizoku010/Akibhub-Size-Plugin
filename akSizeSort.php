@@ -3,7 +3,7 @@
 Plugin Name: Size Sorter
 Description: Sorts product sizes to display as S, M, L, XL.
 Version: 1.0
-Author: Your Name
+Author: Kalanzi Dixon
 */
 
 add_filter( 'woocommerce_get_variation_attributes', 'sort_product_sizes', 10, 1 );
